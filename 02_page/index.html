@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Custom tailwindcss start here -->
+  <style type="text/tailwindcss">
+    @theme {
+        --color-primary-gray: #353749;
+        --color-secondary-gray: #b1b2b9;
+        --color-primary-blue: #0B2A77;
+        --color-secondary-blue: #e4eded;
+        --color-primary-red: #cc1609;
+        --color-secondary-red: #cb5549;
+        --color-light-green: #d0e0d4;
+        --color-primary-cyan: #968b7c;
+        --color-secondary-white: #F9FAFC;
+        --color-transparent-black:#1818181A;
+        --color-primary-green: #6DA015;
+        --color-primary-black:#000;
+        --color-secondary-cyan:#EAEAEA;
+        --color-cyan:#606060;
+        --color-secondary-black: #333333;
+        --color-dark-white: #C0C0C0;
+        --color-light-black: #555555;
+        --color-light-green: #F1F6F2;
+        --color-name: #555555;
+        
+        
+        --shadow-primary: 0 4px 25px -4px rgba(0, 0, 0, 0.1);
+        --shadow-secondary: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+            0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  
+        --breakpoint-xs: 375px;
+        --breakpoint-sm: 480px;
+        --breakpoint-md: 650px;
+        --breakpoint-lg: 768px;
+        --breakpoint-xl: 1024px;
+        --breakpoint-2xl: 1320px;
+  
+        --container-max-width: 1320px;
+        --container-padding-x: 1rem;
+      }
+      .container{
+        max-width: var(--container-max-width);
+        padding-left: var(--container-padding-x);
+        padding-right: var(--container-padding-x);
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+  
+    </style>
+  <!-- Custom tailwindcss ended here -->
+</head>
+<body>
+  <!-- section no 01 ....started here  -->
+  <section
+    style="  background-image:url('./assets/image\ \(1\).png'); background-size: cover; background-position: inherit; background-repeat:no-repeat ;"
+    class=" relative h-[802px] w-auto ">
+  
+    <!-- navber started here..... -->
+    <div class=" h-[735px] w-full">
+      <div class="bg-[#1818181A] backdrop-blur-[8px] h-[84.6px]">
+        <nav class=" container h-auto w-auto items-center ">
+          <div class=" flex flex-row justify-between py-[16px] h-[52.62px]">
+            <div>
+              <img src="./assets/logo.png" alt="not found" class=" cursor-pointer w-[101.42px] h-[52.62px] object-cover  ">
+            </div>
+            <ul class=" flex flex-row items-center gap-x-[44px] w-[610px] h-[24px] py-[30.3px]">
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent   cursor-pointer ">
+                Home
+              </li>
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white  hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent cursor-pointer ">
+                Services
+              </li>
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+                About us
+              </li>
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+                Rates
+              </li>
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+                Cost calculator
+              </li>
+              <li
+                class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent cursor-pointer ">
+                Benifites
+              </li>
+            </ul>
+            <div class="flex flex-row gap-x-[12px] items-center w-auto h-[52px]">
+              <button
+                class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white w-[109px] h-[44px] rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent ">
+                Sign in
+              </button>
+              <button
+                class="h-[44px] w-[109px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white  rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-none hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent">
+                Sign up
+              </button>
+            </div>
+  
+          </div>
+        </nav>
+      </div>
+      <!-- navber ended here... -->
+      <!-- text section started here.... -->
+      <div class="flex justify-center h-auto w-auto">
+        <div class="flex flex-col items-center justify-center gap-x-[24px] max-h-[298px] max-w-[576px] pt-[400px] ">
+          <h1 class="font-roboto text-[68px] font-bold font-[700] leading-[110%] tracking-[0.04] text-white text-center">
+            Our Services
+          </h1>
+          <p class="text-[20px] font-roboto font-regular font-[400] leading-[150%] text-white text-center pt-[24px] ">
+            Lorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci tellus sollicitudin morbi. Duis massa sit
+          </p>
+<div
+  class="absolute cursor-pointer bg-gradient-to-r from-[#6DA015] to-[#46C0A2] h-[60px] w-[60px] rounded-full right-[60px] bottom-[60px] flex justify-center items-center hover:bg-none hover:bg-transparent border border-[#6DA015]">
+  <img src="./assets/Group (3).png" alt="" class="h-[34px] w-[34px]" />
+</div>
+
+  
+  </section>
+  <!-- section no 01 ....ended here  -->
+  <!-- section no 02 started here... -->
+  <section class="h-auto w-auto py-[70px] bg-secondary-white">
+    <div class="container h-auto w-auto flex flex-cal items-center justify-center gap-y-[32px] ">
+      <div class=" text-center  gap-y-[12px]">
+        <div>
+          <h3
+            class="font-roboto font-bold font-[700] text-[36px] text-secondary-black leading-[120%] tracking-[0.04em] pt-[70px]">
+            Our Shipping Services</h3>
+        </div>
+        <div class="pt-3 ">
+          <p class="font-roboto font-light font-[300] leading-[130%] tracking-[0.01em] text-[20px] text-cyan">Lorem ipsum
+            dolor sit amet consectetur. Congue lacinia <br>tempor orci tellus sollicitudin morbi. Duis</p>
+        </div>
+        <div class=" pt-[32px] flex justify-center">
+          <div class="flex justify-between  gap-x-[24px]">
+            <div
+              class="w-[424px] h-[404px] rounded-[10.4px] border-[1.3px] border-[#6DA015] py-[40px]  bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex flex-col items-center gap-6 shadow-lg">
+              <div class="flex flex-col gap-4 items-center">
+                <div class="p-[18px]"><img src="./assets/Frame (1).svg" alt=""></div>
+                <div class="flex flex-col items-center gap-3">
+                  <div><h3 class="font-roboto text-[32px] font-normal font-[600] leading-[120%] tracking-[0.32px] text-[#606060]">US Shipping</h3></div>
+                  <div class="flex flex-col gap-2 items-center">
+                    <h4 class="text-center text-[22px] text-[#636363] font-roboto font-normal font-[400] leading-[130%] tracking-[0.22px]">Ship from door to door in Barbados</h4>
+                    <p class="max-w-[360px] font-roboto text-[14px] font-[300] leading-[150%] tracking-[0.14px] text-[#606060]">Lorem ipsum dolor sit amet consectetur. Neque etiam purus praesent pretium consectetur turpis duis ullamcorper
+                    scelerisque. Quis hendrerit</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white w-[194px] h-[44px] rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent ">
+                  Select
+                </button>
+              </div>
+
+            </div>
+            <div
+              class="w-[424px] h-[404px] rounded-[10.4px] border-[1.3px] border-[#6DA015] py-[40px]  bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex flex-col items-center gap-6 shadow-lg">
+              <div class="flex flex-col gap-4 items-center">
+                <div class="p-[18px]"><img src="./assets/Frame (2).svg" alt=""></div>
+                <div class="flex flex-col items-center gap-3">
+                  <div>
+                    <h3 class="font-roboto text-[32px] font-normal font-[600] leading-[120%] tracking-[0.32px] text-[#606060]">Local Shipping</h3>
+                  </div>
+                  <div class="flex flex-col gap-2 items-center">
+                    <h4
+                      class="text-center text-[22px] text-[#636363] font-roboto font-normal font-[400] leading-[130%] tracking-[0.22px]">
+                      Ship from door to door in Barbados</h4>
+                    <p class="max-w-[360px] font-roboto text-[14px] font-[300] leading-[150%] tracking-[0.14px] text-[#606060]">
+                      Lorem ipsum dolor sit amet consectetur. Neque etiam purus praesent pretium consectetur turpis duis ullamcorper
+                      scelerisque. Quis hendrerit</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white w-[194px] h-[44px] rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent ">
+                  Select
+                </button>
+              </div>
+            
+            </div>
+            <div
+              class="w-[424px] h-[404px] rounded-[10.4px] border-[1.3px] border-[#6DA015] py-[40px]  bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex flex-col items-center gap-6 shadow-lg">
+              <div class="flex flex-col gap-4 items-center">
+                <div class="p-[18px]"><img src="./assets/Frame (3).svg" alt=""></div>
+                <div class="flex flex-col items-center gap-3">
+                  <div>
+                    <h3 class="font-roboto text-[32px] font-normal font-[600] leading-[120%] tracking-[0.32px] text-[#606060]">Regional Shipping</h3>
+                  </div>
+                  <div class="flex flex-col gap-2 items-center">
+                    <h4
+                      class="text-center text-[22px] text-[#636363] font-roboto font-normal font-[400] leading-[130%] tracking-[0.22px]">
+                      Ship from door to door in Barbados</h4>
+                    <p class="max-w-[360px] font-roboto text-[14px] font-[300] leading-[150%] tracking-[0.14px] text-[#606060]">
+                      Lorem ipsum dolor sit amet consectetur. Neque etiam purus praesent pretium consectetur turpis duis ullamcorper
+                      scelerisque. Quis hendrerit</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white w-[194px] h-[44px] rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent ">
+                  Select
+                </button>
+              </div>
+            
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section no 02 ended here... -->
+  
+  <!-- section no 03 started here... -->
+  <section class="w-auto h-[908px] flex jistify-center items-center">
+    <div class="container h-[738px]  flex flex-col items-center gap-[32px]">
+      <div class="flex flex-col items-center gap-[6px] text-center">
+        <h4 class="font=roboto font-bold font-[700] text-[36px] leading-[150%] tracking-[0.04em] text-secondary-black">
+          How It Work</h4>
+        <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] tracking-[0.01em] text-cyan">Lorem ipsum
+          dolor sit amet consectetur. Congue lacinia <br>
+          tempor orci tellus sollicitudin morbi. Duis</p>
+      </div>
+      <div class="relative flex flex-col gap-6"> <!--dihjfj-->
+        <div class="w-[1320px] h-[138px] flex flex-row gap-[32px] border-b border-b-[0.5px] border-b-dark-white ">
+          <div class="h-[100px] w-[100px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center">
+            <h3 class="font-roboto font-[700] font-bold text-white text-[42px] leading-[150%] tracking-[0.04em]">1.</h3>
+          </div>
+          <div class="flex flex-col gap-[6px]">
+            <h2 class="font-roboto font-bold text-[32px] font-[700] leading-[150%] tracking-[0.04em] text-primary-green">
+              Free Sign up</h2>
+            <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] max-w-[623px] text-cyan">Lorem ipsum
+              dolor sit amet consectetur. Parturient mattis mi pretium <br> phasellus adipiscing faucibus ut nec
+              vel.Pellentesque ac faucibus.</p>
+          </div>
+        </div>
+        <div class="w-[1320px] h-[138px] flex flex-row gap-[32px] border-b border-b-[0.5px ] border-b-dark-white">
+          <div class=" h-[100px] w-[100px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center ">
+            <h3 class="font-roboto font-[700] font-bold text-white text-[42px] leading-[150%] tracking-[0.04em]">1.</h3>
+          </div>
+          <div class="flex flex-col gap-[6px]">
+            <h2 class="font-roboto font-bold text-[32px] font-[700] leading-[150%] tracking-[0.04em] text-light-black">
+              Shop online</h2>
+            <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] max-w-[623px] text-cyan">Lorem ipsum
+              dolor
+              sit amet consectetur. Parturient mattis mi pretium <br> phasellus adipiscing faucibus ut nec
+              vel.Pellentesque ac
+              faucibus.</p>
+          </div>
+        </div>
+        <div class="w-[1320px] h-[138px] flex flex-row gap-[32px] border-b border-b-[0.5px ] border-b-dark-white">
+          <div class=" h-[100px] w-[100px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center ">
+            <h3 class="font-roboto font-[700] font-bold text-white text-[42px] leading-[150%] tracking-[0.04em]">1.</h3>
+          </div>
+          <div class="flex flex-col gap-[6px]">
+            <h2 class="font-roboto font-bold text-[32px] font-[700] leading-[150%] tracking-[0.04em] text-light-black">
+              Receive or pick up your packages</h2>
+            <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] max-w-[623px] text-cyan">Lorem ipsum
+              dolor
+              sit amet consectetur. Parturient mattis mi pretium <br> phasellus adipiscing faucibus ut nec
+              vel.Pellentesque ac
+              faucibus.</p>
+          </div>
+        </div>
+        <div class="w-[1320px] h-[138px] flex flex-row gap-[32px] border-b border-b-[0.5px ] border-b-dark-white">
+          <div class=" h-[100px] w-[100px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center ">
+            <h3 class="font-roboto font-[700] font-bold text-white text-[42px] leading-[150%] tracking-[0.04em]">1.</h3>
+          </div>
+          <div class="flex flex-col gap-[6px]">
+            <h2 class="font-roboto font-bold text-[32px] font-[700] leading-[150%] tracking-[0.04em] text-light-black">
+              Tips for you!</h2>
+            <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] max-w-[623px] text-cyan">Lorem ipsum
+              dolor
+              sit amet consectetur. Parturient mattis mi pretium <br> phasellus adipiscing faucibus ut nec
+              vel.Pellentesque ac
+              faucibus.</p>
+          </div>
+        </div>
+        <div class="absolute top-15 right-0">
+          <img src="./assets/rounded-img.png" alt="" class="h-[452px] w-[352px] rotate-[-14.192deg] rounded-[20px] ]">
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- section no 03 ended here... -->
+  
+  <!-- section no 04 started here... -->
+  <section class="w-auto h-[938px] flex justify-center items-center bg-secondary-white">
+    <div class="container h-[738px]  flex flex-col items-center  gap-[32px]">
+      <div class="flex flex-col gap-[6px] text-center">
+        <h4 class="font-roboto font-bold text-[36px] font-[700] leading-[150%] tracking-[0.04em] text-secondary-black">
+          Frequently asked question</h4>
+        <p class="font-roboto font-light font-[300] text-[20px] leading-[130%] tracking-[0.04em] text-cyan">Lorem ipsum
+          dolor sit amet consectetur. Congue lacinia <br> tempor orci tellus sollicitudin morbi. Duis</p>
+      </div>
+      <div class="container h-[954px] flex flex-row gap-[23px]">
+        <div class="w-[648.5px] h-[594px] flex flex-col gap-4">
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center"> <!-- 1st -->
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+              <div class="flex flex-col gap-[10px]">
+                <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                  amet?</h5>
+                <p class="max-w-[470px] font-roboto font-light text-[18px] font-[300] leading-[130.5%] tracking-[0.00em]">
+                  Orthosphere is an AI-powered health assistant offering <br> personalized care, smart doctor
+                  consultations, and lab <br> test
+                  insights to support your health decisions.</p>
+              </div>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-[8px] flex justify-center items-center">
+                <div class="h-[2px] w-[18px] rounded-[1px] bg-white"></div>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[648.5px] h-[594px] flex flex-col gap-4">
+  
+          <!-- 2nd -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class=" cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+          <div class="h-auto w-auto rounded-[16px] bg-gradient-to-r from-[#6DA015]/5 to-[#46C0A2]/5 flex items-center justify-center">
+            <div class="h-auto w-[584px] px-[32px] py-[20px] flex flex-row justify-between">
+  
+              <h5 class="font-roboto font-medium font-[500] text-[24px] leading-[175%] text-cyan">Lorem ipsum dolor sit
+                amet
+                consectetur. <br> Sit amet pellentesque id at eget?
+              </h5>
+              <div
+                class="cursor-pointer w-[41.5px] h-[41.5px] bg-gradient-to-r from-[#6DA015]/10 to-[#46C0A2]/10 rounded-[8px] flex justify-center items-center">
+                <img src="./assets/Group 36811.svg" alt="" class=" h-[18px] w-[18px]">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- section no 04 ended here... -->
+
+  <!-- section no 08 started here... -->
+  <section class="w-auto h-[617px]  flex items-center justify-center">
+    <div class="container relative h-[417px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-[50px] flex items-center justify-center">
+      <div class="w-[926px] h-[209px]  flex flex-col items-center gap-[20px] ">
+        <p class="font-roboto font-bold text-white font-[700] leading-[150%] text-[48px] ">Hassle-Free Shipping, Every
+          Time
+        </p>
+        <p class="font-roboto font-[300] font-light text-[18px] leading-[150%] leading-trim text-center text-white  ">
+          Inscreva-se em nossa newsletter e tenha acesso exclusivo a conteúdos educacionais, dicas de <br> aprendizado de
+          idiomas,
+          atualizações sobre novos cursos e promoções especiais.</p>
+        <button
+          class="  bg-primary-blue text-[16px] font-[500] font-roboto leading-[150%] font-medium tracking-[0.01em] tracking-[0.01em] font-medium text-white w-[200px] h-[44px] rounded-[38px]  hover:border-solid hover:border-primary-blue hover:bg-transparent hover:border-[1px] hover:text-primary-blue cursor-pointer  ">
+          Sign Up For Free
+        </button>
+  
+      </div>
+      <img src="./assets/Group 42 (1).png" alt="" class="absolute top-0 right-0">
+      <img src="./assets/Group 42 (1).png" alt="" class="absolute left-0 bottom-0 rotate-[180deg]">
+    </div>
+  </section>
+  <!-- section no 07 ended here... -->
+  <!-- footer section started here-->
+  <footer class="w-auto h-[462px] bg-primary-blue flex justify-center items-center">
+    <div class="w-[1320px] h-[368px]  flex flex-col ">
+      <div class="w-[1320px] h-[312px]  border-b-[1px] border-cyan flex flex-row justify-between">
+        <div class="w-[449px] flex flex-col gap-4">
+          <img src="./assets/logo.png" alt="not fount" class="w-[121.42px] h-[62.98px]">
+          <p class="font-roboto font-[300] font-light text-white text-[16px] leading-[150%]">Lorem ipsum dolor sit amet
+            consectetur. Neque consequat tristique bibendum facilisis odio congue enim. Tempor justo
+            proin faucibus praesent ac. Dui nunc sit aliquam eget adipiscing feugiat turpis. Ut eleifend blandit
+            suspendisse
+            sollicitudin amet dictum mauris.</p>
+        </div>
+        <div class="w-[133px] h-[224px] flex flex-col gap-[26px]">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Support</h6>
+          <p class="mb-4 font-roboto font-light font-[300] text-[16px] leading-[30px] text-white">FAQ <br>
+            Return & Exchange <br>
+            Shipping <br>
+            Brand <br>
+            Review <br>
+            Help</p>
+        </div>
+        <div class="w-[133px] h-[224px] flex flex-col gap-[26px]">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Company</h6>
+          <p class="mb-4 font-roboto font-light font-[300] text-[16px] leading-[30px] text-white">Service <br> Restricted
+            Items <br> Terms & Conditions <br> Privacy Policy <br> Blog <br> Contact Us</p>
+        </div>
+        <div class="w-[390px] h-[197px] flex flex-col gap-6">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Join a Newsletter
+          </h6>
+          <div class="w-[390px] h-[85px] flex flex-col gap-2">
+            <p class="font-roboto font-regular font-[400] text-[16px] text-white leading-[150%]">Your Email</p>
+            <div class="w-[367px] h-[53px] rounded-[100px] bg-white flex flex-row gap-21 items-center ">
+              <p class="font-roboto font-[100] font-thin text-[16px] leading-[150%] tracking-[0.024em] pl-4">Your email
+                address</p>
+              <button
+                class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-none text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white px-[5.5px] w-[127px] h-[42px] rounded-[100px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-[#6DA015]  cursor-pointer  ">
+                Subscrube
+              </button>
+            </div>
+          </div>
+          <div class="w-[152px] h-[40px] flex flex-row gap-4">
+            <div class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/facebooklogo.png" alt="" class="h-[20px]">
+            </div>
+            <div class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/intagramlogo.png" alt="" class="h-[20px]">
+            </div>
+            <div class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/tewiterlogo.png" alt="" class="h-[20px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-[1320px] h-[56px] bg-primary-blue flex justify-center">
+        <p class="absolute font-roboto font-thin font-[100] text-[24px] mb-1 text-white bottom-0 ">© SWIFT EXPRESS CARGO
+          2025, All Rights Reserved</p>
+      </div>
+    </div>
+  
+  </footer>
+  <!-- footer section started here-->
+  
+  
+  </body>
+  
+  </html>
